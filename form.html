@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h1>Aanmelden</h1>
+        <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+            lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+        <blockquote><em>
+        CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+        Amsterdam.
+        </em></blockquote>
+        <p>
+        Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+        Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+        Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons op.</p>
+    </article>
+    <form>
+           <fieldset>
+           <legend>Contactgegevens:</legend>
+           <label for="name">Naam:</label><input id="name" type="text" placeholder="Henk de Vries">
+           <label for="company">Bedrijf:</label><input id="company" type="text" placeholder="McDonalds">
+            <label for="adress">Adres:</label><input id="adress" type="text" placeholder="Henk Sneevlietweg 1">
+            <label for="postalcode">Postcode:</label><input id="postalcode" type="text" placeholder="1234XX" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}">
+            <label for="location">Plaats:</label><input id="location" type="text" placeholder="Holland">
+            <label for="phone">Telefoon:</label><input id="phone" type="text" placeholder="06123456789">
+            <label for="email">Email:</label><input id="email" type="text" placeholder="henk@henk.nl">
+        </fieldset>
+        <fieldset>
+            <legend>Ik wil mij aanmelden voor:</legend>
+            <label for="keuze1">Voor een project</label><input id="keuze1" type="radio" name="groep1">
+            <label for="keuze2">Als stagebedrijf</label><input id="keuze2" type="radio" name="groep1">
+        </fieldset>
+        <fieldset>
+            <legend>Project</legend>
+            <label for="titel">Titel:</label><input id="titel" type="text" placeholder="Teamnaam">
+            <label for="opdracht">Opdrachtomschrijving:</label><input id="opdracht" type="text" placeholder="De opdracht..">
+            <label for="doelgroep">Doelgroepomschrijving:</label><input id="doelgroep" type="text" placeholder="De doelgroep">
+            <label for="doelstelling">Doelstelling:</label><input id="doelstelling" type="text" placeholder="Doelstelling/intentie">
+            <label for="looptijd">Looptijd:</label><input id="looptijd" type="text" placeholder="5 weken">
+            <label for="deadline">Deadline:</label><input id="deadline" type="date">
+        </fieldset>
+        <fieldset>
+            <legend>Geschikt voor:</legend>
+            <input type="checkbox" name="eerste1" id="eerste"><label for="eerste">Eerstejaars studenten</label>
+            <input type="checkbox" name="tweede1" id="tweede"><label for="tweede">Tweedejaars studenten</label>
+            <input type="checkbox" name="derde1" id="derde"><label for="derde">Derdejaars studenten</label>
+            <input type="checkbox" name="afstudeer1" id="afstudeer"><label for="afstudeer">Afstudeer studenten</label>
+            <input type="checkbox" name="onbekend1" id="onbekend"><label for="onbekend">Onbekend</label>
+        </fieldset>
+        <fieldset>
+            <legend>Opmerking:</legend>
+            <textarea cols="40" rows="2" placeholder="Opmerkingen"></textarea>
+        </fieldset>
+        <fieldset>
+           <legend>Stage</legend>
+            <label>Geschikt voor:</label>
+            <input type="checkbox" name="tweede2" id="tweede2"><label for="tweede2">Tweedejaars studenten</label>
+            <input type="checkbox" name="derde2" id="derde2"><label for="derde2">afstudeer studenten</label>
+            <input type="checkbox" name="onbekend2" id="onbekend2"><label for="onbekend2">Onbekend</label>
+        </fieldset>
+        <fieldset>
+            <legend>Hoe lang is de stage?</legend>
+            <label for="10weken">10 Weken</label><input id="10weken" type="radio" name="groep2">
+            <label for="20weken">20 Weken</label><input id="20weken" type="radio" name="groep2">
+            <label for="begindatum">Begindatum:</label><input id="begindatum" type="date">
+        </fieldset>
+        <fieldset>
+            <legend>Beschrijving werkzaamheden:</legend>
+            <textarea cols="40" rows="5" placeholder="Werkzaamheden.."></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Beschrijving stagebedrijf</legend>
+            <label for="bedrijf">Bedrijfsnaam:</label><input id="bedrijf" type="text" placeholder="McDonalds">
+            <label for="adres">Adres:</label><input id="adres" type="text" placeholder="De lange straat">
+            <label for="postcode">Postcode:</label><input id="postcode" type="text" placeholder="1234XX" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}">
+            <label for="plaats">Plaats:</label><input id="plaats" type="text" placeholder="Holland">
+            <label for="sector">Sector:</label><input id="sector" type="text" placeholder="Gezondheidszorg">
+            <label for="core">Core Business:</label><input id="core" type="text" placeholder="Core Business">
+        </fieldset>
+        <fieldset>
+            <legend>Opmerking:</legend>
+            <textarea cols="40" rows="2" placeholder="Opmerkingen"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
